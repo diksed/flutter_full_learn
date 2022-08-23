@@ -6,6 +6,7 @@ import 'package:flutter_full_learn/101/text_learn_view.dart';
 
 import '101/app_bar_learn.dart';
 import '101/button_learn.dart';
+import '101/card_learn.dart';
 import '101/color_learn.dart';
 import '101/icon_learn.dart';
 import '101/padding_learn.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
               elevation: 0,
               backgroundColor: Colors.transparent,
               systemOverlayStyle: SystemUiOverlayStyle.light)),
-      home: const PaddingLearn(),
+      home: const CardLearn(),
     );
   }
 }
