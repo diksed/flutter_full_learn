@@ -6,6 +6,7 @@ import 'package:flutter_full_learn/101/text_learn_view.dart';
 
 import '101/app_bar_learn.dart';
 import '101/button_learn.dart';
+import '101/color_learn.dart';
 import '101/icon_learn.dart';
 
 void main() {
@@ -21,12 +22,13 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
+          errorColor: ColorsItems.sulu,
           appBarTheme: const AppBarTheme(
               centerTitle: true,
               elevation: 0,
               backgroundColor: Colors.transparent,
               systemOverlayStyle: SystemUiOverlayStyle.light)),
-      home: IconLearnView(),
+      home: ColorLearn(),
     );
   }
 }
