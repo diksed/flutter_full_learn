@@ -12,6 +12,7 @@ import '101/icon_learn.dart';
 import '101/image_learn.dart';
 import '101/padding_learn.dart';
 import '101/stateless_learn.dart';
+import 'demos/note_demos_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
               elevation: 0,
               backgroundColor: Colors.transparent,
               systemOverlayStyle: SystemUiOverlayStyle.light)),
-      home: const ImageLearn(),
+      home: const NoteDemos(),
     );
   }
 }
