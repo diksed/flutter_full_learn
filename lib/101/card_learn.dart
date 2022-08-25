@@ -39,7 +39,7 @@ class _CustomCard extends StatelessWidget {
   final roundedRectangleBorder =
       RoundedRectangleBorder(borderRadius: BorderRadius.circular(20));
 
-  _CustomCard({super.key, required this.child});
+  _CustomCard({required this.child});
   @override
   Widget build(BuildContext context) {
     return Card(

@@ -24,10 +24,10 @@ class ContainerSizedBoxLearn extends StatelessWidget {
             height: 50,
             constraints: const BoxConstraints(
                 maxWidth: 200, minWidth: 100, minHeight: 100, maxHeight: 200),
-            child: Text('aa' * 1, maxLines: 2),
             padding: const EdgeInsets.all(10),
             margin: const EdgeInsets.all(10),
             decoration: ProjectUtility.boxDecoration,
+            child: Text('aa' * 1, maxLines: 2),
           ),
         ],
       ),
