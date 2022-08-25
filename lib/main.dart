@@ -12,6 +12,7 @@ import '101/custom_widget_learn.dart';
 import '101/icon_learn.dart';
 import '101/image_learn.dart';
 import '101/indicator_learn.dart';
+import '101/list_tile_learn.dart';
 import '101/padding_learn.dart';
 import '101/stateless_learn.dart';
 import 'demos/note_demos_view.dart';
@@ -32,13 +33,14 @@ class MyApp extends StatelessWidget {
           progressIndicatorTheme: const ProgressIndicatorThemeData(
             color: Colors.white,
           ),
+          listTileTheme: ListTileThemeData(contentPadding: EdgeInsets.zero),
           errorColor: ColorsItems.sulu,
           appBarTheme: const AppBarTheme(
               centerTitle: true,
               elevation: 0,
               backgroundColor: Colors.transparent,
               systemOverlayStyle: SystemUiOverlayStyle.light)),
-      home: const IndicatorLearn(),
+      home: const ListTileLearn(),
     );
   }
 }
