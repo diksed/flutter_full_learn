@@ -11,6 +11,7 @@ import '101/color_learn.dart';
 import '101/custom_widget_learn.dart';
 import '101/icon_learn.dart';
 import '101/image_learn.dart';
+import '101/indicator_learn.dart';
 import '101/padding_learn.dart';
 import '101/stateless_learn.dart';
 import 'demos/note_demos_view.dart';
@@ -28,13 +29,16 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
+          progressIndicatorTheme: const ProgressIndicatorThemeData(
+            color: Colors.white,
+          ),
           errorColor: ColorsItems.sulu,
           appBarTheme: const AppBarTheme(
               centerTitle: true,
               elevation: 0,
               backgroundColor: Colors.transparent,
               systemOverlayStyle: SystemUiOverlayStyle.light)),
-      home: CustomWidgetLearn(),
+      home: const IndicatorLearn(),
     );
   }
 }
