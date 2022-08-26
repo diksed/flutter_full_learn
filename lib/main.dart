@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '101/color_learn.dart';
-import '101/page_view_lern.dart';
+import '101/statefull_life_cycle_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
               elevation: 0,
               backgroundColor: Colors.transparent,
               systemOverlayStyle: SystemUiOverlayStyle.light)),
-      home: const PageViewLearn(),
+      home: const StatefullLifeCycleLearn(message: "Sedat"),
     );
   }
 }
