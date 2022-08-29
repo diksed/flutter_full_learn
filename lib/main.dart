@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '101/color_learn.dart';
-import '101/text_field_learn.dart';
-import 'demos/color_demos_view.dart';
+import 'demos/color_life_cycle_demos_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +27,7 @@ class MyApp extends StatelessWidget {
               elevation: 0,
               backgroundColor: Colors.transparent,
               systemOverlayStyle: SystemUiOverlayStyle.light)),
-      home: const ColorDemos(),
+      home: const ColorLifeCycleView(),
     );
   }
 }
